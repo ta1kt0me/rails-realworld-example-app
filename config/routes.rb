@@ -18,6 +18,7 @@ Rails.application.routes.draw do
     end
 
     resources :tags, only: [:index]
+    resources :notifications, only: [:index]
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
